@@ -1,0 +1,16 @@
+[2025-02-05 09:13:24,241] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-02-05 09:13:24,257] 224 werkzeug - INFO -  * Debugger PIN: 113-051-041
+[2025-02-05 09:13:40,328] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2025-02-05 09:13:40,342] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-02-05 09:13:40,580] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-02-05 09:13:40,948] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-02-05 09:13:41,203] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-02-05 09:13:53,201] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2025-02-05 09:13:53,220] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-02-05 09:13:53,452] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-02-05 09:13:53,776] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-02-05 09:13:54,029] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:13:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-02-05 09:14:59,492] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:14:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2025-02-05 09:14:59,506] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:14:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-02-05 09:14:59,741] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:14:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-02-05 09:15:00,092] 224 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
