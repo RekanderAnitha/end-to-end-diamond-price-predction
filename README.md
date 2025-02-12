@@ -106,40 +106,7 @@ If you prefer to use Docker, you can install and run the project using a Docker 
 3. **Access the Project**
    - Open a web browser or the appropriate client to access the project.
 
-
-## Setup
-
-### MLflow Tracking
-
-We use MLflow to log and track our machine learning experiments. The MLFLOW_TRACKING_URI environment variable is set to the DagsHub repository's MLflow tracking URI.
-
-```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/HemaKalyan45/Diamond-Price-Prediction.mlflow
-
-export MLFLOW_TRACKING_USERNAME=HemaKalyan45
-
-export MLFLOW_TRACKING_PASSWORD=f3c9457eb0ff83244e93ac8ee651b80d4b35f07c
-```
-
-##  Usage and Configuration
-
-This project requires Amazon Web Services Access Key ID and Secret Access Key for interacting with AWS services. Follow these steps to configure your project to use AWS keys:
-
-1. **Obtain Your AWS Access Key ID and Secret Access Key**:
-   - Log in to the AWS Management Console.
-   - Open the IAM (Identity and Access Management) dashboard.
-   - Create a new IAM user or use an existing one.
-   - Attach the necessary policies to the user.
-   - Generate an access key for the user. Save these keys securely.
-
-2. **Configuration**:
-   - Store your AWS Access Key ID and Secret Access Key securely. Do not hardcode them directly in your code or expose them in public repositories. Instead, use environment variables or a configuration file to manage them securely.
-
-
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
